@@ -1,0 +1,18 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/index.js",
+            "cwd": "${workspaceRoot}",
+            "env": {
+                "NODE_ENV": "development",
+                "QnAKnowledgebaseId": "977df509-2ffc-4bb9-8c3a-8b9790db1110",
+                "QnASubscriptionKey": "9464b0147fa34949b0fc0a2caa4b20f7"
+            }
+        }
+    ]
+}
